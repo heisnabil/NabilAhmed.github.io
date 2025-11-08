@@ -23,6 +23,18 @@ function Projects() {
           Here are some of my self-made projects, built from scratch.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+            <Col md={4} className="project-card">
+  <ProjectCard
+    imgPath={wichain} // replace with your WiChain image import
+    isBlog={false}
+    title="WiChain: Blockchain-Powered Wi-Fi Spoof Detection System"
+    description="WiChain is a hybrid ML + Blockchain system that detects fake Wi-Fi networks in real-time. It analyzes signal patterns, encryption types, and vendor info to classify spoofed hotspots, storing verified threats securely on a tamper-proof blockchain ledger."
+    ghLink="https://wi-chain.vercel.app/" // add your actual GitHub repo link
+    // add demo link if available
+  />
+</Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={railway}
