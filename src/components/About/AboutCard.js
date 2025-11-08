@@ -12,18 +12,23 @@ function AboutCard() {
             <br />
             I'm pursuing a B.E. in <span className="purple">Computer Science & Engineering (AI & ML)</span> at AIKTC under Mumbai University.
             <br />
-            I'm a consistent <strong>University Topper</strong> and was proudly honored with a <strong>Topper Award by Padma Shree Dr.Zahir Kazi </strong>.
+            I'm a consistent <strong>University Topper</strong> and was proudly honored with a <strong>Topper Award by Padma Shree Dr. Zahir Kazi</strong>.
             <br />
             <br />
             👑 <strong>Achievements</strong>:
             <ul>
-              <li>🏆 Winner of <strong>CSMU Hackathon 2024</strong></li>
-              <li>🥈 2nd place in <strong>SIH Internal Hackathon</strong></li>
-              <li>🏅 Honored with <strong>Topper Award by Dr. Zahir Kazi (President of Anjuman-I-Islam)</strong></li>
+              <li>🏆 <strong>Runner-up and Best College Award</strong> – CSMU Hackathon 2024</li>
+              <li>🥈 <strong>Runner-Up</strong> – AIKTC Project Competition 2024 </li>
+              <li>🥇 <strong>2nd Runner-up</strong> – Creathon 2024 (National-Level Innovation Challenge) (₹10,000 Cash Prize)</li>
+              <li>🥈 <strong>Runner-Up</strong> – SIH Internal Hackathon 2025</li>
+              <li>🏅 <strong>Topper Award</strong> – Honored by Dr. Zahir Kazi (President, Anjuman-I-Islam)</li>
+              <li>🎯 <strong>President</strong> – Neuronyx Club (AI & ML Club, AIKTC)</li>
+              <li>💡 <strong>Recognized Innovator</strong> – For WiChain (Blockchain-based Wi-Fi Spoof Detection System)</li>
             </ul>
             <br />
             🧠 <strong>Key Projects</strong> I’ve worked on:
             <ul>
+              <li>💻 WiChain — Blockchain-powered Wi-Fi Spoof Detection System</li>
               <li>🛤️ AI-based Railway Crack Detection</li>
               <li>💉 Medical Diagnosis from Symptoms using ML</li>
               <li>🔍 Face Liveliness Detection for UIDAI</li>
@@ -37,10 +42,10 @@ function AboutCard() {
               <ImPointRight /> Travelling & Exploring new places
             </li>
             <li className="about-activity">
-              <ImPointRight /> Content Writing 
+              <ImPointRight /> Content Writing & Public Speaking
             </li>
             <li className="about-activity">
-              <ImPointRight /> Participating in Tech Events & Hackathons
+              <ImPointRight /> Mentoring Juniors & Leading Hackathons
             </li>
           </ul>
           <p style={{ color: "rgb(155 126 172)" }}>
