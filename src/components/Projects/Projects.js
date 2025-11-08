@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 // Images - you can add or update images for your projects here
-import railway from "../../Assets/Projects/wichain.jpg";
+import wichain from "../../Assets/Projects/wichain.jpg";
 import railway from "../../Assets/Projects/railway.png";
 import medical from "../../Assets/Projects/medical.png";
 import xray from "../../Assets/Projects/xray.png";
