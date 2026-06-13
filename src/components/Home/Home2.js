@@ -18,37 +18,38 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I fell in love with programming and have been building impactful
+              solutions ever since 🚀
               <br />
-              <br />I am fluent in classics like
+              <br />I am fluent in
               <i>
-                <b className="purple"> C,C++,Python and Javascript. </b>
+                <b className="purple"> Python, JavaScript, C++, C, and SQL. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My core expertise lies in &nbsp;
               <i>
-                <b className="purple">Artificial Intelligence and Machine Learning </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                <b className="purple">Artificial Intelligence & Machine Learning</b>,
+                {" "}including Deep Learning, Computer Vision, and&nbsp;
+                <b className="purple">Blockchain</b>.
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Deep Learning</b> and
+              I build end-to-end products using
+              <b className="purple"> TensorFlow, PyTorch, Scikit-learn </b>
+              for AI and
               <i>
                 <b className="purple">
                   {" "}
-                  Machine Learning Algorithm and Frameworks
+                  Next.js, React, Node.js, MongoDB & Firebase
                 </b>
               </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> Sciket-learn & Tensorflow</b>
-              </i>
+              &nbsp; for full-stack development.
+              <br />
+              <br />
+              I'm also a <b className="purple">published researcher</b> with papers in 
+              <b className="purple"> IEEE</b> and <b className="purple">IJCST Journal</b>, 
+              and the <b className="purple">Charter President</b> of NeurOnyx — the ACM Chapter at AIKTC.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

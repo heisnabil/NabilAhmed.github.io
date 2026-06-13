@@ -6,15 +6,15 @@ import logo from "../Assets/logo.png";
 
 import { Link } from "react-router-dom";
 
-
 import {
-
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+import { MdWorkOutline } from "react-icons/md";
+import { BsJournalBookmarkFill } from "react-icons/bs";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -72,6 +72,16 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="/experience"
+                onClick={() => updateExpanded(false)}
+              >
+                <MdWorkOutline style={{ marginBottom: "2px" }} /> Experience
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
@@ -85,16 +95,22 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="/publications"
+                onClick={() => updateExpanded(false)}
+              >
+                <BsJournalBookmarkFill style={{ marginBottom: "2px" }} /> Publications
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-
-           
-
-           
           </Nav>
         </Navbar.Collapse>
       </Container>

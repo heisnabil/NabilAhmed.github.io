@@ -8,35 +8,60 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I’m <span className="purple">Shaikh Nabil Ahmed</span> from <span className="purple">Mumbai, India</span>.
+            Hi Everyone, I'm <span className="purple">Shaikh Nabil Ahmed</span> from <span className="purple">Mumbai, India</span>.
             <br />
-            I'm pursuing a B.E. in <span className="purple">Computer Science & Engineering (AI & ML)</span> at AIKTC under Mumbai University.
+            I'm pursuing a B.E. in <span className="purple">Computer Science & Engineering (AI & ML)</span> at 
+            Anjuman-I-Islam's Kalsekar Technical Campus (AIKTC) under Mumbai University, 
+            with a <strong>CGPA of 9.2/10</strong>.
             <br />
-            I'm a consistent <strong>University Topper</strong> and was proudly honored with a <strong>Topper Award by Padma Shree Dr. Zahir Kazi</strong>.
             <br />
-            <br />
-            👑 <strong>Achievements</strong>:
-            <ul>
-              <li>🏆 <strong>Runner-up and Best College Award</strong> – CSMU Hackathon 2024</li>
-              <li>🥈 <strong>Runner-Up</strong> – AIKTC Project Competition 2024 </li>
-              <li>🥇 <strong>2nd Runner-up</strong> – Creathon 2024 (National-Level Innovation Challenge) (₹10,000 Cash Prize)</li>
-              <li>🥈 <strong>Runner-Up</strong> – SIH Internal Hackathon 2025</li>
-              <li>🏅 <strong>Topper Award</strong> – Honored by Dr. Zahir Kazi (President, Anjuman-I-Islam)</li>
-              <li>🎯 <strong>President</strong> – Neuronyx Club (AI & ML Club, AIKTC)</li>
-              <li>💡 <strong>Recognized Innovator</strong> – For WiChain (Blockchain-based Wi-Fi Spoof Detection System)</li>
-            </ul>
-            <br />
-            🧠 <strong>Key Projects</strong> I’ve worked on:
-            <ul>
-              <li>💻 WiChain — Blockchain-powered Wi-Fi Spoof Detection System</li>
-              <li>🛤️ AI-based Railway Crack Detection</li>
-              <li>💉 Medical Diagnosis from Symptoms using ML</li>
-              <li>🔍 Face Liveliness Detection for UIDAI</li>
-              <li>🦠 Pneumonia & COVID-19 Detection from X-rays</li>
-            </ul>
-            <br />
-            Apart from tech, I enjoy:
+            I'm the <strong>Department Topper</strong> and was proudly honored with a <strong>Topper Award by Padma Shree Dr. Zahir Kazi</strong>.
           </p>
+
+          <div className="about-subsection-title">
+            🏆 Achievements
+          </div>
+          <ul className="achievements-list">
+            <li><strong>Department Topper</strong> — Highest CGPA (9.2/10), B.E. CSE (AI/ML), AIKTC Mumbai</li>
+            <li><strong>Winner</strong> — Slide Storm Hackathon</li>
+            <li><strong>Runner-Up</strong> — Project Competition, AIKTC</li>
+            <li><strong>Charter President</strong> — NeurOnyx, ACM Chapter, AIKTC</li>
+            <li><strong>2nd Runner-Up (Zonal)</strong> — HackArena 2.0 | Delhi Grand Finale Qualifier</li>
+            <li><strong>1st Runner-Up</strong> — SIH Internal Hackathon</li>
+            <li><strong>1st Runner-Up</strong> — Techastra 2.0 Hackathon</li>
+            <li><strong>2nd Runner-Up</strong> — Techastra 3.0 Hackathon</li>
+            <li><strong>2nd Runner-Up</strong> — Creathon Hackathon</li>
+          </ul>
+
+          <div className="about-subsection-title">
+            🎓 Certifications
+          </div>
+          <div>
+            <div className="cert-card">
+              <span className="cert-icon">📜</span>
+              <div className="cert-info">
+                <div className="cert-name">Artificial Intelligence: Concept and Technique</div>
+                <div className="cert-issuer">NPTEL — IIS Bangalore</div>
+              </div>
+            </div>
+            <div className="cert-card">
+              <span className="cert-icon">📜</span>
+              <div className="cert-info">
+                <div className="cert-name">Optimization in Machine Learning</div>
+                <div className="cert-issuer">NPTEL — IIIT Delhi</div>
+              </div>
+            </div>
+            <div className="cert-card">
+              <span className="cert-icon">📜</span>
+              <div className="cert-info">
+                <div className="cert-name">Introduction to C Programming</div>
+                <div className="cert-issuer">NPTEL — IIT Kanpur</div>
+              </div>
+            </div>
+          </div>
+
+          <br />
+          Apart from tech, I enjoy:
           <ul>
             <li className="about-activity">
               <ImPointRight /> Travelling & Exploring new places
@@ -48,7 +73,7 @@ function AboutCard() {
               <ImPointRight /> Mentoring Juniors & Leading Hackathons
             </li>
           </ul>
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p style={{ color: "var(--text-muted)" }}>
             "Strive to build solutions that truly make a difference."
           </p>
           <footer className="blockquote-footer">Nabil</footer>

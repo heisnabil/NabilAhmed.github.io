@@ -1,20 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Nabil_Ahmed (2).pdf";
 import { AiOutlineDownload } from "react-icons/ai";
-import { Document, Page, pdfjs } from "react-pdf";
-import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+import resumeImg from "../../Assets/Shaikh_Nabil_Ahmed_Wasim_Ahmed_page-0001.jpg";
 
 function ResumeNew() {
-  const [width, setWidth] = useState(1200);
-
-  useEffect(() => {
-    setWidth(window.innerWidth);
-  }, []);
-
   return (
     <div>
       <Container fluid className="resume-section">
@@ -22,8 +13,9 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
+            href={resumeImg}
             target="_blank"
+            download="Shaikh_Nabil_Ahmed_Resume"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
@@ -31,17 +23,26 @@ function ResumeNew() {
           </Button>
         </Row>
 
-        <Row className="resume">
-          <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-          </Document>
+        <Row className="resume" style={{ justifyContent: "center" }}>
+          <img
+            src={resumeImg}
+            alt="Shaikh Nabil Ahmed Resume"
+            style={{
+              maxWidth: "800px",
+              width: "100%",
+              borderRadius: "12px",
+              border: "1px solid rgba(168, 85, 247, 0.2)",
+              boxShadow: "0 8px 32px rgba(0, 0, 0, 0.4)",
+            }}
+          />
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
+            href={resumeImg}
             target="_blank"
+            download="Shaikh_Nabil_Ahmed_Resume"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
